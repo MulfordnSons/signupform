@@ -1,0 +1,9 @@
+body {
+    height: 97vh;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
