@@ -1,9 +1,55 @@
+html {
+    height: 100%;
+}
 body {
-    height: 97vh;
+    height: 100%;
     width: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
 
+}
+
+.brand-container {
+    width: 40%;
+    height: 100%;
+    background-image: url('brandLogo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.banner-container {
+    margin-top: 35%;
+    height: 15%;
+    width: auto;
+    background-color: black;
+    opacity: 75%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+}
+
+.brand-footer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.form-container {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-body {
+    height: 60%;
 }
