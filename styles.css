@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Norse';
+    src: url("Norse-Bold.otf") format("opentype");
+}
+
 html {
     height: 100%;
 }
@@ -12,6 +17,15 @@ body {
 
 }
 
+img {
+    height: 85%;
+    width: auto;
+}
+
+#odinTitle {
+    font-size: 6rem;
+}
+
 .brand-container {
     width: 40%;
     height: 100%;
@@ -22,6 +36,7 @@ body {
     display: flex;
     flex-direction: column;
     color: white;
+    font-family: 'Norse';
 }
 
 .banner-container {
@@ -32,7 +47,7 @@ body {
     opacity: 75%;
     display: flex;
     justify-content: center;
-    gap: 5%;
+    gap: 2%;
     align-items: center;
 }
 
@@ -49,6 +64,8 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
 }
 
 .form-body {
@@ -98,3 +115,21 @@ label,input{
     display:flex;
     flex-direction:column;
   }
+
+label {
+    font-size: 0.70rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+input[type=submit] {
+    background-color: #596D48;
+    border: solid 1px grey;
+    border-radius: 10%;
+    box-shadow: 0px 1px 5px 0px grey;
+    color: white;
+    padding: 16px 60px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
